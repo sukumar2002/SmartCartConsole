@@ -3,7 +3,6 @@ package com.smartcart.controller;
 import com.smartcart.factory.ServiceFactory;
 import com.smartcart.models.Product;
 import com.smartcart.services.interfaces.*;
-
 import java.util.Optional;
 import java.util.Scanner;
 
@@ -47,4 +46,3 @@ public class CartController {
         System.exit(0);
     }
 }
-
