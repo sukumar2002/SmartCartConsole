@@ -21,7 +21,6 @@ public class ServiceFactory {
             System.out.println("Trying to load implementation: " + implClassName); // Debug log
 
             Class<?> implClass = Class.forName(implClassName);
-
             // Check if class is annotated with @Service
             if (!implClass.isAnnotationPresent(Service.class)) {
                 throw new RuntimeException("Implementation class " + implClassName + " is missing @Service annotation.");
